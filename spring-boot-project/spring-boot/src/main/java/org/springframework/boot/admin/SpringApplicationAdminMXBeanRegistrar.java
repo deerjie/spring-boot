@@ -12,7 +12,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ */kjkljlkj
 
 package org.springframework.boot.admin;
 
@@ -87,8 +87,7 @@ public class SpringApplicationAdminMXBeanRegistrar implements ApplicationContext
 		if (type == null) {
 			return false;
 		}
-		return ApplicationReadyEvent.class.isAssignableFrom(type)
-				|| WebServerInitializedEvent.class.isAssignableFrom(type);
+		return ApplicationReadyEvent.class.isAssignableFrom(type)|| WebServerInitializedEvent.class.isAssignableFrom(type);
 	}
 
 	@Override
